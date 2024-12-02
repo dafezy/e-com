@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import SingleProduct from './pages/SingleProduct';
 import Home from './pages/Home';
-import { useEffect, useState } from 'react';
-import Cart from './pages/Cart';
+import { useEffect, useState } from 'react'
+import Cart from './pages/Cart'
 
 
 
@@ -32,7 +32,7 @@ function App() {
       setCart([...cart, {...product,quantity:1}])
     }
   }
-  
+
   return (
     <div className="App ">
        
